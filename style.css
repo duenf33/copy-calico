@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: aktiv-grotesk,sans-serif;
+    margin: 0;
+    text-align: center;
+}       
+
+header {
+    /* overflow: hidden; */
+    /* background-color: white; */
+    /* height: 70; */
+} 
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+}
+
+.header > div {
+    width: calc(100% / 3);
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    float: left;
+    color: blue;
+}
+
+.logo > a > img {
+    margin-top: 10px;
+    height: 40px;
+    width: 110px;
+}
+
+#nav {
+    color: #0b396d;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 14px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 25px;
+}
+
+.nav-a-tag:hover {
+    color: #0057b8;
+}
+
+#head-div {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.head-div > img {
+    margin-top: 15px;
+    padding: 0;
+    height: 30px;
+    width: 300px;
+}
+
+#img {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+#img img { 
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin:auto;
+    display:block;
+}
+
+#img #over-img {
+    /* background-color: rgba(0, 0, 0, 0.219); */
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+
+#over-img-p {
+    margin-bottom: 30px;
+}
+
+#img #over-img a {
+    background-color: white;
+    color: #0057b8;
+    font-size: 14px;
+    padding: 15px 28px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#img #over-img a:hover {
+    color: #0b396d;
+}
+
+footer { 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* border: 3px solid green; */
+}
+
+footer > a > img {
+    position: absolute;
+    height: 75px;
+    top: 30px;
+    right: 16px;
+}
